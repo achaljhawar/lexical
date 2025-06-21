@@ -72,6 +72,7 @@ const INITIAL_TOOLBAR_STATE = {
   isLowercase: false,
   isUppercase: false,
   isCapitalize: false,
+  listStartNumber: null as number | null,
   rootType: 'root' as keyof typeof rootTypeToRootName,
 };
 
